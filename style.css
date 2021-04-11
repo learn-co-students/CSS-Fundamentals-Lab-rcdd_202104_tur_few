@@ -3,3 +3,46 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+text-align: center;
+}
+#navbar {
+  text-align: center;
+  justify-content: center;
+
+}
+nav>a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+}
+figcaption {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.expl {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+#details{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: inline-flex;
+  background-color: #C24F38;
+  width: 25%;
+  text-align: center;
+  align-content: space-around;
+  align-items: flex-end;
+}
